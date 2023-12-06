@@ -5,7 +5,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["seeeduino xiao"]'
+      board: '["seeeduino_xiao"]'
       shield: '["corne_left","corne_right"]'
       alphas: '["qwerty"]'
       nav: '["invertedt"]'
