@@ -1,0 +1,13 @@
+name: 'fhirworx'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino xiao"]'
+      shield: '["corne_left","corne_right"]'
+      alphas: '["qwerty"]'
+      nav: '["invertedt"]'
+      clipboard: '["mac"]'
+      layers: '["flip"]'
